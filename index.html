@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css"></a>
+</head>
+<body>
+    <h1>Welcome to Sunshine Academy</h1>
+    <div class="container">
+        <h2>Register Student</h2>
+        <input id="student-name" type="text" placeholder="name">
+        <input id="student-email" type="email" placeholder="email">
+        <input id="student-extra" type="text" placeholder="grade">
+        <button onclick="registerperson('student')">Register Student</button>
+    </div>
+
+    <div class="container">
+        <h2>Register Teacher</h2>
+        <input id="teacher-name" type="text" placeholder="name">
+        <input id="teacher-email" type="email" placeholder="email">
+        <input id="teacher-extra" type="text" placeholder="subject">
+        <button onclick="registerperson('teacher')">Register Teacher</button>
+    </div>
+    <h2>Registered People</h2>
+    <div id="output"></div>
+    <script src="script.js"></script>
+</body>
+</html>
